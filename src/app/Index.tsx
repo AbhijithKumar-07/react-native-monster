@@ -5,6 +5,7 @@ import Monster from "../components/Monster";
 import TextElement from "../components/TextElement";
 import ViewElement from "../components/ViewElement";
 import ButtonComponent from "../components/ButtonComponent";
+import PressableElement from "../components/PressableElement";
 
 const Index = () => {
   return (
@@ -13,11 +14,11 @@ const Index = () => {
     //   <Monster />
     // </Fragment>
 
-    <View>
+    <View style={{ marginLeft: 20, marginTop: 50, marginRight: 20 }}>
       <TextElement />
       <ViewElement />
       <ButtonComponent />
-
+      <PressableElement />
     </View>
   );
 };
