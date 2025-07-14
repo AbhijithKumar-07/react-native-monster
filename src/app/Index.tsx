@@ -6,6 +6,7 @@ import TextElement from "../components/TextElement";
 import ViewElement from "../components/ViewElement";
 import ButtonComponent from "../components/ButtonComponent";
 import PressableElement from "../components/PressableElement";
+import ImageComponent from "../components/ImageComponent";
 
 const Index = () => {
   return (
@@ -19,6 +20,7 @@ const Index = () => {
       <ViewElement />
       <ButtonComponent />
       <PressableElement />
+      <ImageComponent />
     </View>
   );
 };
