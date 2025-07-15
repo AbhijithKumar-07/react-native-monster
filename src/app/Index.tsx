@@ -7,6 +7,7 @@ import ViewElement from "../components/ViewElement";
 import ButtonComponent from "../components/ButtonComponent";
 import PressableElement from "../components/PressableElement";
 import ImageComponent from "../components/ImageComponent";
+import DynamicContent from "../components/DynamicContent";
 
 const Index = () => {
   return (
@@ -21,6 +22,7 @@ const Index = () => {
       <ButtonComponent />
       <PressableElement />
       <ImageComponent />
+      <DynamicContent />
     </View>
   );
 };
