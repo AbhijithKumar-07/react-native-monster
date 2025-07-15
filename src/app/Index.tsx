@@ -10,6 +10,7 @@ import ImageComponent from "../components/ImageComponent";
 import DynamicContent from "../components/DynamicContent";
 import InlineStyle from "../components/InlineStyle";
 import InternalStyle from "../components/InternalStyle";
+import ExternalStyle from "../components/ExternalStyle";
 
 const Index = () => {
   return (
@@ -27,6 +28,7 @@ const Index = () => {
       <DynamicContent /> */}
       <InlineStyle />
       <InternalStyle />
+      <ExternalStyle />
     </View>
   );
 };
