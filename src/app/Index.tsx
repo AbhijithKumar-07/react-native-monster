@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View, Text, ScrollView } from "react-native";
 import React, { Fragment } from "react";
 import Greet from "../components/Greet";
 import Monster from "../components/Monster";
@@ -8,6 +8,8 @@ import ButtonComponent from "../components/ButtonComponent";
 import PressableElement from "../components/PressableElement";
 import ImageComponent from "../components/ImageComponent";
 import DynamicContent from "../components/DynamicContent";
+import InlineStyle from "../components/InlineStyle";
+import InternalStyle from "../components/InternalStyle";
 
 const Index = () => {
   return (
@@ -17,12 +19,14 @@ const Index = () => {
     // </Fragment>
 
     <View style={{ marginLeft: 20, marginTop: 50, marginRight: 20 }}>
-      <TextElement />
+      {/* <TextElement />
       <ViewElement />
       <ButtonComponent />
       <PressableElement />
       <ImageComponent />
-      <DynamicContent />
+      <DynamicContent /> */}
+      <InlineStyle />
+      <InternalStyle />
     </View>
   );
 };
