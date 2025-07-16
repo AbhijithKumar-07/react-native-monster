@@ -7,7 +7,7 @@ const FlatListComponent = () => {
     <View>
       <FlatList
         data={fruits}
-        keyExtractor={(ele) => ele}
+        keyExtractor={(ele, index) => ele}     // In this Function the dataType of the return value should be 'String'
         renderItem={({ item, index }) => {
           return <Text key={index}> {item} </Text>;
         }}
@@ -18,5 +18,5 @@ const FlatListComponent = () => {
 
 export default FlatListComponent;
 
-// FlastList Component in ReactNative
+// FlatList Component in ReactNative
 // For Traversing over the elements of an array we use FlatList Component in ReactNative

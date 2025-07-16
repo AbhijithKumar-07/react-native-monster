@@ -12,12 +12,13 @@ import InlineStyle from "../components/InlineStyle";
 import InternalStyle from "../components/InternalStyle";
 import ExternalStyle from "../components/ExternalStyle";
 import FlatListComponent from "../components/FlatListComponent";
+import FlatListComponentPractice from "../components/FlatListComponentPractice";
 
 const Index = () => {
   return (
     // <Fragment>
     //   <Greet />
-    //   <Monster />
+    //   <Monster />v
     // </Fragment>
 
     <View style={{ marginLeft: 20, marginTop: 50, marginRight: 20 }}>
@@ -31,6 +32,7 @@ const Index = () => {
       <InternalStyle />
       <ExternalStyle /> */}
       <FlatListComponent />
+      <FlatListComponentPractice />
     </View>
   );
 };
