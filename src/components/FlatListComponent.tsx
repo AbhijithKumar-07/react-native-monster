@@ -17,3 +17,6 @@ const FlatListComponent = () => {
 };
 
 export default FlatListComponent;
+
+// FlastList Component in ReactNative
+// For Traversing over the elements of an array we use FlatList Component in ReactNative
