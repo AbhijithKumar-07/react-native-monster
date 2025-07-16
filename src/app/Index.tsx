@@ -11,6 +11,7 @@ import DynamicContent from "../components/DynamicContent";
 import InlineStyle from "../components/InlineStyle";
 import InternalStyle from "../components/InternalStyle";
 import ExternalStyle from "../components/ExternalStyle";
+import FlatListComponent from "../components/FlatListComponent";
 
 const Index = () => {
   return (
@@ -25,10 +26,11 @@ const Index = () => {
       <ButtonComponent />
       <PressableElement />
       <ImageComponent />
-      <DynamicContent /> */}
+      <DynamicContent />
       <InlineStyle />
       <InternalStyle />
-      <ExternalStyle />
+      <ExternalStyle /> */}
+      <FlatListComponent />
     </View>
   );
 };
