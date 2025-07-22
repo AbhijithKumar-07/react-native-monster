@@ -13,6 +13,7 @@ import InternalStyle from "../components/InternalStyle";
 import ExternalStyle from "../components/ExternalStyle";
 import FlatListComponent from "../components/FlatListComponent";
 import FlatListComponentPractice from "../components/FlatListComponentPractice";
+import ParentComponent from "../components/Props/ParentComponent";
 
 const Index = () => {
   return (
@@ -30,9 +31,10 @@ const Index = () => {
       <DynamicContent />
       <InlineStyle />
       <InternalStyle />
-      <ExternalStyle /> */}
+      <ExternalStyle />
       <FlatListComponent />
-      <FlatListComponentPractice />
+      <FlatListComponentPractice /> */}
+      <ParentComponent />
     </View>
   );
 };
