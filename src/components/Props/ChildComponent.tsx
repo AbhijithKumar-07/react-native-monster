@@ -10,8 +10,8 @@ const ChildComponent = ({ name, age }: Props) => {
   return (
     <View>
       <Text>Child Component</Text>
-      <Text> {name} </Text>
-      <Text> {age} </Text>
+      <Text>Name: {name} </Text>
+      <Text>Age: {age} </Text>
     </View>
   );
 };
