@@ -6,7 +6,7 @@ const ParentComponent = () => {
   return (
     <View>
       <Text>Parent Component</Text>
-      <ChildComponent name="Abhijith" age={19} />
+      <ChildComponent name="Abhijith Kumar" age={19} />
     </View>
   )
 }
