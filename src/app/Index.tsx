@@ -14,6 +14,7 @@ import ExternalStyle from "../components/ExternalStyle";
 import FlatListComponent from "../components/FlatListComponent";
 import FlatListComponentPractice from "../components/FlatListComponentPractice";
 import ParentComponent from "../components/Props/ParentComponent";
+import TextInputComponent from "../components/TextInputComponent";
 
 const Index = () => {
   return (
@@ -33,8 +34,9 @@ const Index = () => {
       <InternalStyle />
       <ExternalStyle />
       <FlatListComponent />
-      <FlatListComponentPractice /> */}
-      <ParentComponent />
+      <FlatListComponentPractice />
+      <ParentComponent /> */}
+      <TextInputComponent />
     </View>
   );
 };
