@@ -31,6 +31,10 @@ const UseReducerHook = () => {
         title="Increment"
         onPress={() => dispatch({ type: "increment" })}
       />
+      <Button
+        title="Decrement"
+        onPress={() => dispatch({ type: "decrement" })}
+      />
     </View>
   );
 };
