@@ -15,6 +15,8 @@ import FlatListComponent from "../components/FlatListComponent";
 import FlatListComponentPractice from "../components/FlatListComponentPractice";
 import ParentComponent from "../components/Props/ParentComponent";
 import TextInputComponent from "../components/TextInputComponent";
+import UseReducerHook from "../Hooks/UseReducerHook";
+
 
 const Index = () => {
   return (
@@ -35,8 +37,9 @@ const Index = () => {
       <ExternalStyle />
       <FlatListComponent />
       <FlatListComponentPractice />
-      <ParentComponent /> */}
-      <TextInputComponent />
+      <ParentComponent />
+      <TextInputComponent /> */}
+      <UseReducerHook />
     </View>
   );
 };
